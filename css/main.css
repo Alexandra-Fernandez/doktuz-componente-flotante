@@ -1,9 +1,14 @@
+#modal-title{
+    font-family: 'Ovo', serif;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bolder;
+}
 img {
     width: 100%; 
 }
 .modal-content{
     position: fixed;
-    top: 10%;
+    top: 6%;
     left: 10%;
     width: auto;
     height: auto;
@@ -11,6 +16,27 @@ img {
 .modal-header{
     background: #00234B;
     color: white;
+}
+.dental{
+    font-family: 'Ovo', serif;
+    font-family: 'Catamaran', sans-serif;
+}
+.pregunta{
+    font-family: 'Ovo', serif;
+    font-family: 'Catamaran', sans-serif;
+    color: #888791;
+    font-weight: bolder;
+}
+
+.text{
+    font-family: 'Ovo', serif;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+#files{
+    padding: 10px;
 }
 fieldset {
       border: 0;

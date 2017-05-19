@@ -5,6 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>PRUEBA DOKTUZ</title>
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Ovo" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Catamaran|Ovo" rel="stylesheet">
         <link rel="stylesheet" href="jquery-ui/jquery-ui.min.css">
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
@@ -16,7 +18,7 @@
         <div class="container">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Book an Appointment</h4>
+                    <h3 class="modal-title" id="modal-title">Book an Appointment</h3>
                 </div>
                 <div class="modal-body">
                     <div class="demo">
@@ -24,16 +26,17 @@
                             <fieldset>
                                 <select name="files" id="files">
                                     <optgroup label="Scripts">
-                                        <option>Delta Dental Network Premier</option>
-                                        <option>Delta Dental Patient Direct</option>
-                                        <option>Delta Dental PPO</option>
-                                        <option>Delta Dental PPO Plus Premier</option>
-                                        <option> DeltaCare USA (HMO)</option>
-                                        <option>Delta Dental Network Premier</option>
-                                        <option>Delta Dental Patient Direct</option>
-                                        <option>Delta Dental PPO</option>
-                                        <option>Delta Dental PPO Plus Premier</option>
-                                        <option> DeltaCare USA (HMO)</option>
+                                       <option class="dental">Delta Dental - Delta Dental PPO</option>
+                                        <option class="dental">Delta Dental Network Premier</option>
+                                        <option class="dental">Delta Dental Patient Direct</option>
+                                        <option class="dental">Delta Dental PPO</option>
+                                        <option class="dental">Delta Dental PPO Plus Premier</option>
+                                        <option class="dental"> DeltaCare USA (HMO)</option>
+                                        <option class="dental">Delta Dental Network Premier</option>
+                                        <option class="dental">Delta Dental Patient Direct</option>
+                                        <option class="dental">Delta Dental PPO</option>
+                                        <option class="dental">Delta Dental PPO Plus Premier</option>
+                                        <option class="dental"> DeltaCare USA (HMO)</option>
                                     </optgroup>
                                     <optgroup label="Other files">
                                         <option value="somefile">Some unknown file</option>
@@ -46,7 +49,7 @@
                     
                     <div class="demo">
                         <form action="#">
-                                   <span>What's the reason for your visit?</span>
+                                   <span class="pregunta">What's the reason for your visit?</span>
                             <fieldset>
                                 <select name="files" id="files">
                                     <optgroup label="Scripts">
@@ -70,7 +73,7 @@
                         </form>
                 </div><br>
                     
-                    <p>60 East 56th Street,Suite 501,New York,NY,10022</p><br>
+                    <p class="text">60 East 56th Street,Suite 501,New York,NY,10022</p><br>
 
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs" role="tablist">
