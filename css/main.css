@@ -1,0 +1,47 @@
+img {
+    width: 100%; 
+}
+.modal-content{
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    width: auto;
+    height: auto;
+}
+.modal-header{
+    background: #00234B;
+    color: white;
+}
+fieldset {
+      border: 0;
+    }
+label {
+    display: block;
+    margin: 30px 0 0 0;
+}
+.overflow {
+    height: 200px;
+}
+.glyphicon {
+    font-size: 20px;
+    color: #00CC9C;
+}
+.dias{
+    padding-left: 27px;
+    padding-right: 27px;
+}
+.horarios{
+    margin-left: 60px;
+}
+.horas{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    border-radius: 0px;
+}
+
+.btn{
+    background: #FFF04B;
+    border-color: #FFF04B;
+}
+
